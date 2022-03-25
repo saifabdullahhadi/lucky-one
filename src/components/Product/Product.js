@@ -8,6 +8,9 @@ const Product = (props) => {
             <img src={picture} alt="" />
             <h3 className='product-name'>{name}</h3>
             <h4 className='product-price'>Price: $ {price}</h4>
+            <button className='btn-cart'>
+            <p className='btn-text'>Add to Cart</p>
+            </button>
         </div>
     );
 };

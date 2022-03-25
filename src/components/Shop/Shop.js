@@ -19,7 +19,10 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h4>Order summary</h4>
+                <h4>Selected Watches</h4>
+                <button className='choose-btn'>BEST FOR ME</button>
+                <br />
+                <button className='choose-btn'>CHOOSE AGAIN</button>
             </div>
         </div>
     );
