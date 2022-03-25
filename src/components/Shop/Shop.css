@@ -5,13 +5,20 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 45px;
+    grid-gap: 25px;
     margin-left: 10px;
 }
 
 .cart-container{
-    height: 200px;
-    width: 200px;
+    font-family: 'Baloo Bhai 2';
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid #555; */
+    border-radius: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 .choose-btn{
     font-family: 'Baloo Bhai 2';
@@ -22,4 +29,18 @@
     margin-bottom: 20px;
     height: 50px;
     width: 250px;
+}
+.choose-btn:hover{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 767px) {
+    .products-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .cart-container{
+        grid-template-columns: 1fr;
+        
+    }
 }
