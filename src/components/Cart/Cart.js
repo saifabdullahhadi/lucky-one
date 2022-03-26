@@ -1,16 +1,16 @@
 import React from 'react';
 import './Cart.css'
 const Cart = ({cart}) => {
-    let total = '';
-    for(const product of cart){
-        total = total+ product.name;
-    }
     return (
         <div>
-            <h2>Selected Watches</h2>
+            <h2 className='cart-title'>Selected Watches</h2>
             <div className="cart-info">
-                
-                <h4>{total}</h4>
+                {
+                    cart.map(cart => <p className='cart-name'><div className='cart-details'>
+                        <img className='cart-picture' src={cart.picture} alt="" />
+                        {cart.name}          
+                    </div></p>)
+                }
             </div>
             <button className='choose-btn'>BEST FOR ME</button>
             <br />
