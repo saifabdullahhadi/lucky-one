@@ -19,9 +19,9 @@ const Footer = () => {
                     <p>useState is a Hook that enables state variables in functional components. When we pass the initial state to this function, and it returns a variable containing the current state value (which may or may not be the initial state) and another function to update this value.</p>
                 </div>
             </div>
-            <h3 className='copy-right'>© All Right Reserved By Ahatasam Siam</h3>
+            <h3 className='copy-right'>© All Right Reserved By saif abdullah hadi Siam</h3>
         </div>
     );
 };
 
-export default Footer;<h3>All Right Reserved By Ahatasam Siam</h3>
+export default Footer;
