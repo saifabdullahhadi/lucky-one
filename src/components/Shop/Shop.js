@@ -35,7 +35,8 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} 
+                <Cart key={cart.id} 
+                cart={cart} 
                 removeFromCart={removeFromCart} 
                 randomChoice={randomChoice}
                 ></Cart>
