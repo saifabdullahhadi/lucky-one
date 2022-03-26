@@ -24,24 +24,28 @@
 .choose-btn:hover {
     background-color: aqua;
 }
-.cart-title{
+
+.cart-title {
     color: rgb(248, 104, 61);
 }
-.cart-details{
+
+.cart-details {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 2px;
     justify-content: center;
     align-items: center;
-    
+
 }
-.cart-name{
+
+.cart-name {
     padding-right: 10px;
     color: rgb(253, 98, 51);
     font-size: 15px;
     font-weight: 600;
 }
-.cart-picture{
+
+.cart-picture {
     height: 50px;
     width: 50px;
     border-radius: 10px;
