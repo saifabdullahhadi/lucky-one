@@ -7,3 +7,10 @@
     color: rgb(248, 104, 61);
     background-color: aquamarine;
 }
+.answer{
+    border: 1px solid rgb(245, 111, 111);
+    border-radius: 10px;
+}
+.copy-right{
+    padding-top: 10px;
+}
